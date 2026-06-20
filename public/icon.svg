@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" fill="#0f172a" />
+
+  <rect
+    x="146"
+    y="56"
+    width="220"
+    height="400"
+    rx="40"
+    ry="40"
+    fill="#0f172a"
+    stroke="#0ea5e9"
+    stroke-width="10"
+    filter="url(#glow)"
+  />
+
+  <circle cx="256" cy="92" r="6" fill="#38bdf8" />
+
+  <text
+    x="256"
+    y="282"
+    text-anchor="middle"
+    font-family="Inter, system-ui, sans-serif"
+    font-weight="700"
+    font-size="120"
+    fill="#0ea5e9"
+  >RS</text>
+
+  <rect x="226" y="424" width="60" height="6" rx="3" fill="#38bdf8" opacity="0.6" />
+</svg>

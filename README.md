@@ -1,6 +1,6 @@
 # raphaelssampaio.github.io — Portfolio
 
-Personal portfolio of Raphael Sampaio (Rapha), Senior React Native Engineer.
+Personal portfolio of Raphael Sampaio, Senior React Native Engineer.
 
 **Live:** https://raphaelssampaio.github.io
 

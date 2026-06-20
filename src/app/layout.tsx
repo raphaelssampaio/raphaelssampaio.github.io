@@ -8,6 +8,13 @@ export const metadata: Metadata = {
   title: "Raphael Sampaio — Senior React Native Engineer",
   description:
     "Portfolio of Raphael Sampaio, Senior React Native Engineer based in Fortaleza, Brazil. Open to remote contractor roles.",
+  icons: {
+    icon: "/favicon-32x32.png",
+    apple: "/apple-touch-icon.png",
+  },
+  openGraph: {
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
