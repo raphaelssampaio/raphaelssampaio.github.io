@@ -1,16 +1,16 @@
-'use client'
+"use client";
 
-import { motion } from 'framer-motion'
-import type { Language } from '@/lib/types'
-import { translations } from '@/lib/i18n'
+import { motion } from "framer-motion";
+import type { Language } from "@/lib/types";
+import { translations } from "@/lib/i18n";
 
 interface ContactProps {
-  lang: Language
+  lang: Language;
 }
 
 export default function Contact({ lang }: ContactProps) {
-  const t = translations[lang].contact
-  const coffee = translations[lang].about.coffee
+  const t = translations[lang].contact;
+  const coffee = translations[lang].about.coffee;
 
   return (
     <section id="contact" className="bg-background px-6 py-24">
@@ -32,7 +32,7 @@ export default function Contact({ lang }: ContactProps) {
             📧 {t.email}
           </a>
           <a
-            href="https://www.linkedin.com/in/raphael-sampaio/"
+            href="https://www.linkedin.com/in/raphael-ssampaio/"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-md border border-primary px-6 py-3 text-sm font-semibold text-primary transition-colors hover:bg-primary hover:text-white"
@@ -61,5 +61,5 @@ export default function Contact({ lang }: ContactProps) {
         </div>
       </motion.div>
     </section>
-  )
+  );
 }
