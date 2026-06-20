@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Raphael Sampaio — Senior React Native Engineer",
   description:
-    "Portfolio of Raphael Sampaio (Rapha), Senior React Native Engineer based in Fortaleza, Brazil. Open to remote contractor roles.",
+    "Portfolio of Raphael Sampaio, Senior React Native Engineer based in Fortaleza, Brazil. Open to remote contractor roles.",
 };
 
 export default function RootLayout({
@@ -17,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-background text-text antialiased`}>
+      <body
+        className={`${inter.className} bg-background text-text antialiased`}
+      >
         {children}
       </body>
     </html>
