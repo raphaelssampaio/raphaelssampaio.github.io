@@ -19,8 +19,8 @@ export const experience: Experience[] = [
     },
     period: "09/2024 — 03/2026",
     description: {
-      en: "Developed a mental health mobile app focused on mindfulness and emotional wellbeing, available on both iOS and Android.",
-      pt: "Desenvolveu um app mobile de saúde mental focado em mindfulness e bem-estar emocional, disponível para iOS e Android.",
+      en: "Developed a wellness health mobile app focused on mindfulness and emotional wellbeing, available on both iOS and Android.",
+      pt: "Desenvolveu um app mobile de bem-estar mental focado em mindfulness e bem-estar emocional, disponível para iOS e Android.",
     },
     tech: ["React Native", "Expo", "TypeScript"],
   },
