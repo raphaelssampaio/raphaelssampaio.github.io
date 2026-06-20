@@ -26,7 +26,7 @@ export default function Contact({ lang }: ContactProps) {
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <a
-            href="mailto:raphaelsampaio.dev@gmail.com"
+            href="mailto:raphael.get.in.touch@gmail.com"
             className="rounded-md border border-primary px-6 py-3 text-sm font-semibold text-primary transition-colors hover:bg-primary hover:text-white"
           >
             📧 {t.email}
