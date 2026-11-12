@@ -55,6 +55,7 @@ export const translations = {
     contact: {
       title: 'Get in touch',
       subtitle: 'Open to remote contractor roles with US-based companies.',
+      relocation: 'Open to relocating to the US (Orlando, FL or Austin, TX) — visa sponsorship required.',
       email: 'Send an email',
       linkedin: 'LinkedIn',
       github: 'GitHub'
@@ -112,6 +113,7 @@ export const translations = {
     contact: {
       title: 'Entre em contato',
       subtitle: 'Aberto a vagas remotas como contractor para empresas americanas.',
+      relocation: 'Disponível para me mudar para os EUA (Orlando, FL ou Austin, TX) — necessário sponsorship de visto.',
       email: 'Enviar e-mail',
       linkedin: 'LinkedIn',
       github: 'GitHub'

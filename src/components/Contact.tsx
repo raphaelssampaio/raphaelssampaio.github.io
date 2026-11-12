@@ -23,6 +23,7 @@ export default function Contact({ lang }: ContactProps) {
       >
         <h2 className="text-3xl font-bold text-white">{t.title}</h2>
         <p className="mt-2 text-textMuted">{t.subtitle}</p>
+        <p className="mt-1 text-sm text-textMuted">{t.relocation}</p>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <a
